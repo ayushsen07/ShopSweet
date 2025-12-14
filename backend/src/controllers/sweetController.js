@@ -1,4 +1,4 @@
-const Sweet = require('../models/Sweet');
+const Sweet = require('../models/sweet');
 
 //     Create a new sweet
 //    POST /api/sweets
