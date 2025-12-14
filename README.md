@@ -151,8 +151,10 @@ Using AI significantly sped up the boilerplate phase, allowing me to focus on th
 ## 📸 Screenshots
 
 Login page -> ![Login page](image.png)
-RegisterPage ->[Register page](image-1.png)
-
+RegisterPage ->![Register page](image-1.png)
+User Home page -> ![home page](image-2.png) 
+Admin page-> ![Admin page](image-3.png)
+Search Function -> ![Search](image-4.png)
 -----
 
  #**Author:** [Ayush]
