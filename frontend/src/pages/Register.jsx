@@ -106,8 +106,8 @@ const Register = () => {
         <button
           type="submit"
           disabled={loading}
-          className={`w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white 
-            ${loading ? 'bg-indigo-400 cursor-not-allowed' : 'bg-indigo-600 hover:bg-indigo-700'}`}
+          className={`w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm cursor-pointer font-medium text-white 
+            ${loading ? 'bg-indigo-400 cursor-not-allowed' : 'bg-[#0D3253]'}`}
         >
           {loading ? 'Creating Account...' : 'Register'}
         </button>
@@ -115,7 +115,7 @@ const Register = () => {
 
       <div className="mt-4 text-center text-sm text-gray-600">
         Already have an account?{' '}
-        <Link to="/login" className="font-medium text-indigo-600 hover:text-indigo-500">
+        <Link to="/login" className="font-medium text-[#0D3253]">
           Login here
         </Link>
       </div>

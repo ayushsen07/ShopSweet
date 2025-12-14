@@ -67,7 +67,7 @@ const Dashboard = () => {
     <div>
       {/* Header & Search */}
       <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
-        <h1 className="text-3xl font-bold text-gray-800">
+        <h1 className="text-3xl font-bold text-[#0D3253]">
           Available Sweets
         </h1>
         
@@ -94,7 +94,7 @@ const Dashboard = () => {
 
             <div className="p-5 flex-1 flex flex-col">
               <div className="flex justify-between items-start mb-2">
-                <h3 className="text-lg font-bold text-gray-900 line-clamp-1">{sweet.name}</h3>
+                <h3 className="text-lg font-bold text-[#0D3253] line-clamp-1">{sweet.name}</h3>
                 <span className="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full whitespace-nowrap">
                   {sweet.category}
                 </span>

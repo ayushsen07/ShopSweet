@@ -73,8 +73,8 @@ const Login = () => {
         <button
           type="submit"
           disabled={loading}
-          className={`w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white 
-            ${loading ? 'bg-indigo-400 cursor-not-allowed' : 'bg-indigo-600 hover:bg-indigo-700'}`}
+          className={`w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium cursor-pointer text-white 
+            ${loading ? 'bg-indigo-400 cursor-not-allowed' : 'bg-[#0D3253]'}`}
         >
           {loading ? 'Signing In...' : 'Sign In'}
         </button>
@@ -82,7 +82,7 @@ const Login = () => {
 
       <div className="mt-4 text-center text-sm text-gray-600">
         Don't have an account?{' '}
-        <Link to="/register" className="font-medium text-indigo-600 hover:text-indigo-500">
+        <Link to="/register" className="font-medium text-[#0D3253] hover:text-indigo-500">
           Register here
         </Link>
       </div>

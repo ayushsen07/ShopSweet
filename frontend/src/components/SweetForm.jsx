@@ -47,7 +47,7 @@ function SweetForm({ onSubmit }) {
         value={quantity}
         onChange={(e) => setQuantity(e.target.value)}
       />
-      <button type="submit">Add Sweet</button>
+      <button className="text-[#0D3253]" type="submit">Add Sweet</button>
     </form>
   );
 }

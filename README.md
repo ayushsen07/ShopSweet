@@ -13,7 +13,7 @@ This project demonstrates a robust RESTful API, secure JWT authentication, and a
 - **Inventory System:** Purchase logic that automatically decreases stock quantity.
 - **Security:** Protected routes ensuring only authenticated users can access shop features.
 
-### 👑 Admin Features (Protected)
+### Admin Features (Protected)
 - **Role-Based Access Control:** Special permissions for Admin users.
 - **Dashboard:** Specialized UI for managing inventory.
 - **CRUD Operations:** Add, Update, and Delete sweets.
@@ -155,8 +155,7 @@ RegisterPage ->![Register page](image-1.png)
 User Home page -> ![home page](image-2.png) 
 Admin page-> ![Admin page](image-3.png)
 Search Function -> ![Search](image-4.png)
------
 
- #**Author:** [Ayush]
 
-```
+## Learning Outcomes
+ 

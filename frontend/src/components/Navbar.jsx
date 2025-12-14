@@ -13,11 +13,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-indigo-600 text-white shadow-lg">
+    <nav className="bg-[#5CC5D5] text-white shadow-lg">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2 text-xl font-bold hover:text-indigo-100 transition">
           <Candy size={28} />
-          <span>Sweet Shop</span>
+          <span className='text-[#0D3253]'>Sweet Shop</span>
         </Link>
 
         <div className="flex space-x-6 items-center">
@@ -26,7 +26,7 @@ const Navbar = () => {
           {user ? (
             <>
               {/* Show user name */}
-              <span className="text-indigo-200 text-sm">Hi, {user.name}</span>
+              <span className="text-white text-sm">Hi, {user.name}</span>
               
               {/* Only show Admin link if user is admin */}
               {user.isAdmin && (
@@ -35,7 +35,7 @@ const Navbar = () => {
               
               <button 
                 onClick={handleLogout}
-                className="bg-red-500 px-4 py-2 rounded hover:bg-red-600 transition"
+                className="bg-[#0D3253] px-4 py-2 rounded transition"
               >
                 Logout
               </button>
@@ -43,7 +43,7 @@ const Navbar = () => {
           ) : (
             <>
               <Link to="/login" className="hover:text-indigo-200">Login</Link>
-              <Link to="/register" className="bg-white text-indigo-600 px-4 py-2 rounded font-semibold hover:bg-gray-100 transition">
+              <Link to="/register" className="bg-[#0D3253] text-white px-4 py-2 rounded font-semibold transition">
                 Register
               </Link>
             </>

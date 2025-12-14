@@ -95,7 +95,7 @@ const AdminPanel = () => {
             type="number" placeholder="Quantity" required className="border p-2 rounded"
             value={newSweet.quantity} onChange={e => setNewSweet({...newSweet, quantity: e.target.value})}
           />
-          <button type="submit" className="bg-green-600 text-white py-2 rounded md:col-span-2 hover:bg-green-700">
+          <button type="submit" className="bg-[#0D3253] text-white py-2 rounded md:col-span-2 cursor-pointer">
             Add Sweet
           </button>
         </form>
@@ -121,14 +121,14 @@ const AdminPanel = () => {
                 <td className="p-4 flex gap-3">
                   <button 
                     onClick={() => handleRestock(sweet._id)}
-                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1 text-sm"
+                    className="text-[#0D3253] flex items-center cursor-pointer gap-1 text-sm"
                     title="Add 10 more"
                   >
                     <RefreshCw size={16} /> Restock
                   </button>
                   <button 
                     onClick={() => handleDelete(sweet._id)}
-                    className="text-red-500 hover:text-red-700"
+                    className=" cursor-pointer text-red-500 hover:text-red-700"
                     title="Delete"
                   >
                     <Trash2 size={18} />
