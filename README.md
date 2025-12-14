@@ -1,9 +1,4 @@
-I understand completely. You want **one single, clean Markdown block** that contains **everything** (including the sections on Credentials, TDD, AI Usage, and Screenshots) properly formatted, so you can just copy-paste it once and it will look perfect.
-
-Here is the **complete, fully formatted README.md** file:
-
-````markdown
-# 🍬 Sweet Shop Management System
+## 🍬 Sweet Shop Management System
 
 A full-stack Sweet Shop Management System built with the **MERN Stack** (MongoDB, Express, React, Node.js) following strictly **Test-Driven Development (TDD)** principles.
 
@@ -155,15 +150,11 @@ Using AI significantly sped up the boilerplate phase, allowing me to focus on th
 
 ## 📸 Screenshots
 
-*(Place your screenshots here in the repository and link them)*
-
-| Dashboard | Admin Panel |
-| :---: | :---: |
-|  |  |
+Login page -> ![Login page](image.png)
+RegisterPage ->[Register page](image-1.png)
 
 -----
 
-**Author:** [Your Name]
+ #**Author:** [Ayush]
 
-```
 ```
